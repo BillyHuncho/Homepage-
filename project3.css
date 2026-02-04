@@ -1,0 +1,119 @@
+body{
+    margin: 0px;
+    background-image: url(Images/agency4-home-splash.jpg);
+    background-size: cover;
+}
+.navBar{
+    text-transform: capitalize;
+    text-align: right;
+    /* padding 25 is up and down 30px is left and right */
+    padding: 25px 30px;
+    font-size: 15px;
+}
+.navBar a{
+    text-decoration: none;
+    color:rgb(2, 2, 140);
+    /* padding 30px up and down padding 9px is left and right */
+    padding: 30px 9px;
+    border: 1px solid transparent;
+}
+.navBar a.home{
+    font-size: 12px;
+    font-weight: bold;
+    /* text-decoration: none; */
+    text-transform: uppercase;
+    color: rgb(234, 0, 255);
+}
+.navBar a:hover:not(.logo){
+    color: blue;
+}
+.navBar button{
+    background-color: blue;
+    border: 1px solid blue;
+    border-radius: 50px;
+    color: white;
+    padding: 10px 20px;
+}
+.navBar button:hover{
+    color: black;
+}
+.navBar img{
+    width: 190px; 
+    float: left;
+    margin-right: 800px;
+    height: 50px;
+}
+.textBox h2{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(95, 95, 244);
+    margin-top: 90px;
+}
+.textBox h6{
+    color: rgb(27, 27, 78);
+    text-align: center;
+    font-size: 55px;
+    margin-top: -40px;
+}
+.textBox1 h2{
+    text-align: center;
+    font-size: 12px;
+    color: gray;
+    margin-top: -90px;
+}
+.b1 button{
+    color: white;
+    background-color: rgb(235, 79, 105);
+    border: 1px solid rgb(220, 24, 56);
+    border-radius: 50px;
+    font-size: 22px;
+    margin-left: 550px;
+    margin-top: 35px;
+    padding: 10px 17px;
+}
+.b2 button{
+    color: blue;
+    border: 2px solid rgb(4, 4, 65);
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 50px;
+    padding: 10px 17px;
+    float: right;
+    margin-right: 600px;
+    margin-top: -48px;
+}
+.icon{
+    margin-top: 75px;
+}
+.icon i{
+    font-size: 22px;
+    height: 24px;
+    padding: 20px;
+    margin-bottom: 15px;
+    color: rgb(184, 34, 59);
+}
+.icon span{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: gray;
+    padding: 10px;
+}
+.icon #num{
+    color: rgb(8, 8, 126);
+}
+.icon1{
+    float: right;
+    margin-right: 40px;
+}
+.icon1 span{
+    color: gray;
+    padding: 19px;
+}
+.icon1 i{
+    color: white;
+    border: 1px solid blue;
+    padding: 15px;
+    border-radius: 50px;
+    background-color: blue;
+}
